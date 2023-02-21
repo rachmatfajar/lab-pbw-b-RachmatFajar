@@ -1,0 +1,96 @@
+body {
+  background-color: #fafaf9;
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  background: rgb(250, 250, 249);
+  background: linear-gradient(0deg, rgba(250, 250, 249, 1) 0%, rgba(26, 170, 146, 1) 100%);
+  padding: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.card {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 68px;
+  border-style: solid;
+  margin-right: 235px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  float: right;
+}
+
+.card img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 350px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%);
+  pointer-events: none;
+  padding-left: 500px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.card .content {
+  width: 50%;
+  padding: 20px 20px 20px 40px;
+  text-align: left;
+  margin-left: 40px;
+  padding: 0px;
+}
+
+.card .content h2 {
+  font-size: 28px;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgba(26, 170, 146, 1), 0 0 5px rgba(26, 170, 146, 1);
+}
+
+.tabel {
+  margin-top: 20px;
+}
+
+.tabel .cap {
+  margin-left: 230px;
+  margin-bottom: 15px;
+  font-size: 25px;
+  color: black;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgba(26, 170, 146, 1), 0 0 5px rgba(26, 170, 146, 1);
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+tr:nth-child(even) {
+  background-color: #d1d5db;
+}
+
+th {
+  background-color: #27272a;
+  color: white;
+  text-align: center;
+}
+
+.footer {
+  background: rgb(18, 114, 180);
+  background: linear-gradient(0deg, rgba(18, 114, 180, 1) 0%, rgba(250, 250, 249, 1) 100%);
+  padding: 15px;
+  margin-top: 35px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
